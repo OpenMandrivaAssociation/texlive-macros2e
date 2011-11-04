@@ -1,3 +1,9 @@
+# revision 23236
+# category Package
+# catalog-ctan /info/macros2e
+# catalog-date 2011-07-25 14:37:19 +0200
+# catalog-license lppl
+# catalog-version v0.4
 Name:		texlive-macros2e
 Version:	v0.4
 Release:	1
@@ -25,6 +31,7 @@ some macros.
 %files
 %doc %{_texmfdistdir}/doc/latex/macros2e/macros2e.pdf
 %doc %{_texmfdistdir}/doc/latex/macros2e/macros2e.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -35,3 +42,5 @@ some macros.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
