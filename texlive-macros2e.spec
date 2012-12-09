@@ -39,3 +39,17 @@ some macros.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v0.4-2
++ Revision: 753674
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v0.4-1
++ Revision: 718936
+- texlive-macros2e
+- texlive-macros2e
+- texlive-macros2e
+- texlive-macros2e
+
