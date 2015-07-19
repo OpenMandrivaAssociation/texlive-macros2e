@@ -6,7 +6,7 @@
 # catalog-version v0.4
 Name:		texlive-macros2e
 Version:	v0.4
-Release:	9
+Release:	10
 Summary:	A list of internal LaTeX2e macros
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/macros2e
