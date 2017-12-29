@@ -1,12 +1,6 @@
-# revision 23236
-# category Package
-# catalog-ctan /info/macros2e
-# catalog-date 2011-07-25 14:37:19 +0200
-# catalog-license lppl
-# catalog-version v0.4
 Name:		texlive-macros2e
-Version:	v0.4
-Release:	10
+Version:	0.4a
+Release:	1
 Summary:	A list of internal LaTeX2e macros
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/macros2e
@@ -27,8 +21,7 @@ some macros.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/latex/macros2e/macros2e.pdf
-%doc %{_texmfdistdir}/doc/latex/macros2e/macros2e.tex
+%doc %{_texmfdistdir}/doc/latex/macros2e
 
 #-----------------------------------------------------------------------
 %prep
@@ -39,17 +32,3 @@ some macros.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v0.4-2
-+ Revision: 753674
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v0.4-1
-+ Revision: 718936
-- texlive-macros2e
-- texlive-macros2e
-- texlive-macros2e
-- texlive-macros2e
-
