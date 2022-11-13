@@ -1,12 +1,12 @@
 Name:		texlive-macros2e
-Version:	0.4a
-Release:	2
+Version:	64967
+Release:	1
 Summary:	A list of internal LaTeX2e macros
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/macros2e
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/macros2e.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/macros2e.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/macros2e.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/macros2e.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -25,7 +25,7 @@ some macros.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
