@@ -3,7 +3,7 @@ Version:	64967
 Release:	2
 Summary:	A list of internal LaTeX2e macros
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/macros2e
+URL:		https://www.ctan.org/tex-archive/info/macros2e
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/macros2e.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/macros2e.doc.r%{version}.tar.xz
