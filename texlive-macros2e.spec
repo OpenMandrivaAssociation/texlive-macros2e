@@ -1,6 +1,6 @@
 Name:		texlive-macros2e
-Version:	64967
-Release:	2
+Version:	77050
+Release:	1
 Summary:	A list of internal LaTeX2e macros
 Group:		Publishing
 URL:		https://www.ctan.org/tex-archive/info/macros2e
